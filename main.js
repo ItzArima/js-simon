@@ -32,9 +32,41 @@ setTimeout(function()
     }
     console.log(inserisci);
     
-    console.log("numeri indovinati : "+giusti.length+"("+giusti+")");
+    alert("numeri indovinati : "+giusti.length+"("+giusti+")");
     
 },
-30000);
+30000); 
 
+/* var random =[];
 
+function genera(){
+    return Math.floor(Math.random()*10 +1);
+}
+
+while (random.length<5){
+    var numero = genera();
+    if(random.includes(numero) == false){
+        random.push(numero);
+    }
+}
+alert(random);
+
+var numeriInseriti = [];
+var azzeccati = [];
+
+setTimeout(function(){
+    while(numeriInseriti.length<random.length){
+        var numero = parseInt(prompt("inserisci un numero"));
+        if(!numeriInseriti.includes(numero)){
+            numeriInseriti.push(numero);
+            if(random.includes(numero)==true){
+                azzeccati.push(numero)
+            }
+        }
+        else{
+            console.log("hai gia inserito questo numero");
+        }
+        console.log(numeriInseriti + " numeri inseriti");
+        console.log(azzeccati+ " numeri azzeccati");
+    }
+},3000) */
